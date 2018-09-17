@@ -1,0 +1,6 @@
+tr.colored td {
+  background-color: #fafad2;
+}
+tr.mouseon td {
+  background-color: #00ff90;
+}

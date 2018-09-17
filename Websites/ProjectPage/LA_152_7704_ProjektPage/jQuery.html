@@ -1,0 +1,142 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ <meta name="description" content="">
+ <meta name="author" content="">
+ <link rel="icon" href="img/favicon.ico">
+ <title>jQuery Tutorial</title>
+ <!-- Bootstrap core CSS -->
+ <link href="css/bootstrap.min.css" rel="stylesheet">
+ <!-- Custom styles for this template -->
+ <link href="css/carousel.css" rel="stylesheet">
+ <link href="css/style.css" rel="stylesheet">
+
+ <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+</head>
+<body>
+ <header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+   <a class="navbar-brand" href="index.html">ProjectPage</a>
+   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarCollapse">
+    <ul class="navbar-nav mr-auto">
+     <li class="nav-item">
+      <a class="nav-link" href="index.html">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="bootstrap.html">Bootstrap</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="jQuery.html">jQuery</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="markdown.html">Markdown</a>
+    </li>
+  </ul>
+</div>
+</nav>
+</header>
+
+<script>
+  $(document).ready(function() {
+    $("tr").addClass("colored");
+    $("tr").mouseover(function () {
+      $(this).removeClass("colored");
+      $(this).addClass("mouseon");
+    });
+    $("tr").mouseout(function () {
+      $(this).removeClass("mouseon");
+      $(this).addClass("colored");
+    })   
+  });
+</script>
+
+<main>
+  <br />
+  <div class="container">
+
+    <div class="row row-offcanvas row-offcanvas-right">
+
+      <div class="col-12 col-md-9">
+        <div class="jumbotron">
+          <h1>jQuery</h1>
+          <p>
+            jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers. With a combination of versatility and extensibility, jQuery has changed the way that millions of people write JavaScript.
+          </p>
+        </div>
+        <div class="col-12 col-md-9">
+          <div class="jumbotron" id="jquery">
+            <h2>Was ist jQuery?</h2>
+            <p>
+            jQuery ist eine JavaScript-Bibliothek, welche die Entwicklung von AJAX-Funktionen erleichtert und beschleunigt. So müssen viele Funktionen nicht immer neu programmiert werden, sondern können einfach und komfortabel in den Quellcode eingebunden werden. Die Bibliothek besteht dabei aus einer JavaScript-Datei, die die grundlegenden Ajax-Funktionen und gängigen Effekte enthält.
+          </p>
+          </div><!--/span-->
+        </div><!--/row-->
+        <div class="col-12 col-md-9">
+          <div class="jumbotron" id="jquerycss">
+            <h2>jQueryCSS</h2>
+
+            <p><a href="LA_152_7714_jQueryOut/index.html">Auftrag: LA_152_7714_jQueryOut</a></p>
+            <p><a href="LA_152_7715_jQueryMove/index.html">Auftrag: LA_152_7715_jQueryMove</a></p>
+          </div><!--/span-->
+          <p>LA_152_7713_jQueryCSS:</p>
+          <table class="table table-bordered table-striped">
+            <thead>
+              <tr>
+                <th>Vorname</th>
+                <th>Nachname</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Susanne</td>
+                <td>Muster</td>
+              </tr>
+              <tr>
+                <td>Rudi</td>
+                <td>Rüssel</td>
+              </tr>
+              <tr>
+                <td>Bert</td>
+                <td>Baumann</td>
+              </tr>
+            </tbody>
+          </table>
+        </div><!--/row-->
+      </div><!--/span-->
+      
+
+
+      <div class="col-6 col-md-3 sidebar-offcanvas" id="sidebar">
+        <div class="list-group">
+          <a href="#jquery" class="list-group-item">jQuery</a>
+          <a href="#jquerycss" class="list-group-item">jQueryCSS</a>
+          <a href="hangman/jQueryHangman.html" class="list-group-item">jQuery Hangman</a>
+          <div class="table-responsive">
+          </div>
+        </div>
+      </div><!--/span-->
+    </div><!--/row-->
+
+    <hr>
+
+  </main>
+  <footer class="container">
+    <p class="float-right"><a href="#">Back to top</a></p>
+    <p>&copy; 2018 Riccardo Landolfo &middot;</p>
+  </footer>
+      <!-- Bootstrap core JavaScript
+       ================================================== -->
+       <!-- Placed at the end of the document so the pages load faster -->
+       <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+       <script src="../../assets/js/vendor/popper.min.js"></script>
+       <script src="js/bootstrap.min.js"></script>
+       <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+       <script src="js/vendor/holder.min.js"></script>
+     </body>
+     </html>
