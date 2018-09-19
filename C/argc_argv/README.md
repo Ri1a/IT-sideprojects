@@ -5,8 +5,12 @@ Now you can run the program with ./argc_argv and give some parameters. Example .
 Example output:
 
 argc: 4
+
 argv[0]: ./argc_argv
+
 argv[1]: 1
+
 argv[2]: 2
+
 argv[3]: 3
 
