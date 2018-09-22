@@ -1,0 +1,18 @@
+Program DemoVars;
+#include("stdlib.hhf")
+
+static
+	InitDemo:		int32 := 5;
+	NotInitialized:	int32;
+
+begin DemoVars;
+	
+	//Output value of InitDemo
+	stdout.put("InitDemo value is: ", InitDemo, nl);
+
+	//Input
+	stdout.put("Enter an integer value: ");
+	stdin.get(NotInitialized);
+	stdout.put("You entered: ", NotInitialized, nl);
+
+end DemoVars;
