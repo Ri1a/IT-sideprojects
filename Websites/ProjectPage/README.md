@@ -1,6 +1,6 @@
 ﻿# ProjectPage
 
-Link: [LA_152_7704_ProjektPage](https://riccardolandolfo.github.io/IT-stuff/Websites//ProjectPage/LA_152_7704_ProjektPage/index.html)
+Link: [LA_152_7704_ProjektPage](https://riccardolandolfo.github.io/IT-sideprojects/Websites//ProjectPage/LA_152_7704_ProjektPage/index.html)
 
 This website was created with HTML, CSS, Bootstrap and jQuery. This was an task at the BBB IT-school (written in german).
 
