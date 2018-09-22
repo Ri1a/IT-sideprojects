@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+    <h:head>
+        <title>Pokemon Go</title>
+    </h:head>
+    <h:body>
+        <h1>Erstelle deinen eigenen Avatar</h1>
+        <p>Wähle deinen Look aus:</p>
+        <h:graphicImage library="img" name="#{verwaltungBean.farbe}"/>
+        <p>Wähle die Haarfarbe aus:</p>
+        <h:form>
+            <h:selectOneMenu value = "#{verwaltungBean.haare}"> 
+                <f:selectItem itemValue = "s" itemLabel = "schwarz" /> 
+                <f:selectItem itemValue = "b" itemLabel = "blond" /> 
+            </h:selectOneMenu> 	
+            <h:commandButton action="#{navigationBean.auswahl2()}" value="Haarfarbe auswählen"/>
+        </h:form>
+    </h:body>
+</html>
