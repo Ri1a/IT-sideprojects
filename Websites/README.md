@@ -1,7 +1,9 @@
 # Websites
 
-These websites are created with HTML, Bootstrap, CSS and jQuery.
+These websites are created with HTML, Bootstrap, CSS, JS and jQuery.
 
 ## Links
 
-Link: [LA_152_7704_ProjektPage](https://riccardolandolfo.github.io/IT-sideprojects/Websites//ProjectPage/LA_152_7704_ProjektPage/index.html)
+[ProjektPage](https://riccardolandolfo.github.io/IT-sideprojects/Websites//ProjectPage/LA_152_7704_ProjektPage/index.html)
+
+[SimpleEditor](https://riccardolandolfo.github.io/projects/web/simpleEditor/editor.html)

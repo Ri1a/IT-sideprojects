@@ -1,0 +1,45 @@
+<html>
+   <head>
+      <title>Simple Editor</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="style.css"/>
+
+	  <link rel="shortcut icon" type="image/x-icon" href="https://cdn4.iconfinder.com/data/icons/48-bubbles/48/12.File-512.png">
+
+   </head>
+   <body>
+
+      <div class="foo">
+
+         <span class="letter" data-letter="S">S</span>
+         <span class="letter" data-letter="I">I</span>
+         <span class="letter" data-letter="M">M</span>
+         <span class="letter" data-letter="P">P</span>
+         <span class="letter" data-letter="L">L</span>
+         <span class="letter" data-letter="E">E</span>
+         </br>
+         <span class="letter" data-letter="E">E</span>
+         <span class="letter" data-letter="D">D</span>
+         <span class="letter" data-letter="I">I</span>
+         <span class="letter" data-letter="T">T</span>
+         <span class="letter" data-letter="O">O</span>
+         <span class="letter" data-letter="R">R</span>
+
+      </div>
+
+   	  <div id="heading" contenteditable="true"></div>
+   	  <div id="content" contenteditable="true"></div>
+   	  <script src="app.js"></script>
+   	  </br>
+   	  <p>Farbe des Texts:</p>
+   	  <input id="btn" type="submit" value="Schwarz" onclick="colorBlack()">
+   	  <input id="btn" type="submit" value="Rot" onclick="colorRed()">
+	  <input id="btn" type="submit" value="Blau" onclick="colorBlue()">
+	  <input id="btn" type="submit" value="Grün" onclick="colorGreen()">
+	  </br>
+	  </br>
+	  <button onClick="download()">Download Text</button>
+
+   </body>
+
+</html>
