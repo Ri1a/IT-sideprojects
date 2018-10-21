@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+    <benutzer name ="Benutzer1">
+        <benutzerID>1</benutzerID>
+        <benutzerName>benutzer1</benutzerName>
+        <passwordUser>123</passwordUser>
+    </benutzer>
+    <benutzer name ="Benutzer2">
+        <benutzerID>2</benutzerID>
+        <benutzerName>benutzer2</benutzerName>
+        <passwordUser>123</passwordUser>
+    </benutzer>
+    <benutzer name ="Benutzer3">
+        <benutzerID>3</benutzerID>
+        <benutzerName>benutzer3</benutzerName>
+        <passwordUser>123</passwordUser>
+    </benutzer>
+</root>
