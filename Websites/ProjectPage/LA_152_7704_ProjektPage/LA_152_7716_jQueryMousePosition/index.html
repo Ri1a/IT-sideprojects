@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html lang="de">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Die 3 Meta-Tags oben *müssen* zuerst im head stehen; jeglicher sonstiger head-Inhalt muss *nach* diesen Tags kommen -->
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link rel="icon" href="image/favicon.ico">
+
+	<title>Vorlage für jQuery</title>
+
+	<!-- Bootstrap-CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- Besondere Stile für diese Vorlage -->
+	<link href="css/sticky-footer-navbar.css" rel="stylesheet">
+	<!-- Eigenes CSS -->
+	<link href="css/style.css" rel="stylesheet">
+
+	<script src="js/mouse_position.js"></script>
+
+	<!-- Nur für Testzwecke. Kopiere diese Zeilen nicht in echte Projekte! -->
+	<!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+	<script src="js/ie-emulation-modes-warning.js"></script>
+
+	<!-- Unterstützung für Media Queries und HTML5-Elemente in IE8 über HTML5 shim und Respond.js -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+
+	<script>
+		function showCoords(event) {
+			var x = event.clientX;
+			var y = event.clientY;
+			var coords = "X coords: " + x + ", Y coords: " + y;
+			document.getElementById("demo").innerHTML = coords;
+		}
+
+	</script>
+
+	<!-- Seiteninhalt -->
+	<div class="container">
+		<div class="page-header">
+			<h1>LA_152_7716_jQueryMousePosition</h1>
+		</div>
+		<p>Bewege die Maus über das Feld</p>
+		<br />
+		<div onmousemove="showCoords(event)" style="width: 450px; height: 250px; background-color: yellow"></div>
+		<br />
+		<p id="demo"></p>
+
+	</div>
+
+
+
+    <!-- Bootstrap-JavaScript
+    	================================================== -->
+    	<!-- Am Ende des Dokuments platziert, damit Seiten schneller laden -->
+    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    	<script src="js/bootstrap.min.js"></script>
+    	<!-- IE10-Anzeigefenster-Hack für Fehler auf Surface und Desktop-Windows-8 -->
+    	<script src="js/ie10-viewport-bug-workaround.js"></script>
+    </body>
+    </html>
