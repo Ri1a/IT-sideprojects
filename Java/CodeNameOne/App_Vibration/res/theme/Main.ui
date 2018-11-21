@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="Main" cloudDestinationProperty="Main" layout="BoxLayout" boxLayoutAxis="Y" title="Vibration" >
+  <component type="Label" name="Label" cloudDestinationProperty="Label" text="Tap on the button to create a vibration" verticalAlignment="4" textPosition="3" >
+  </component>
+  <component type="Button" name="btn_vibrate" cloudDestinationProperty="Button" text="Vibrate!" >
+  </component>
+  <component type="SpanLabel" name="lb_vibrate" cloudDestinationProperty="lb_vibrate" >
+  </component>
+</component>

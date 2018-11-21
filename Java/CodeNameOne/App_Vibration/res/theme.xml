@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resource majorVersion="1" minorVersion="9" useXmlUI="false">
+    <ui name="Main" />
+    <theme name="Theme">
+        <val key="@includeNativeBool" value="true" />
+        <val key="Form.align" value="4" />
+        <val key="Label.align" value="4" />
+    </theme>
+</resource>
