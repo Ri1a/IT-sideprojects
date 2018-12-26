@@ -1,6 +1,6 @@
 # Issuetracker
 
-Created in pure JS.
+Created in pure JS. This tracker uses a JS-library to generate unique ID's for the submitted issues.
 
 ## Link
 

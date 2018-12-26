@@ -15,8 +15,11 @@ Mit diesem Auftrag wurden folgende Handlungsziele vertieft:
 Und folgende Leistungsziele vorgegeben:
 
 <b>LZ8:</b> Ich kann ohne Unterlagen die Klassen für eine Problemstellung als UML-Klassendiagramm aufzeichnen.
+
 <b>LZ9:</b> Ich kann die Beziehungen der gefundenen Klassen ohne Unterlagen korrekt nach UML-Standard modellieren.
+
 <b>LZ11:</b> Ich kann mit Unterlagen Design-Pattern auf ein passendes Problem anwenden und daraus einen Teil des Klassendiagramms ableiten.
+
 <b>LZ21:</b> Ich kann im Design gegebene Entwurfsmuster implementieren.
 
 ## Aufgabenstellung
