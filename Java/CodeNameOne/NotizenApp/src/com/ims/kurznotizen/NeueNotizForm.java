@@ -1,34 +1,14 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package com.ims.kurznotizen;
 
-import com.codename1.io.FileSystemStorage;
-import com.codename1.io.Log;
-import com.codename1.io.Preferences;
-import com.codename1.io.Storage;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
-import java.util.ArrayList;
-import java.util.Stack;
-import java.util.Vector;
+import com.codename1.ui.Container;
+import com.codename1.ui.Form;
+import com.codename1.ui.Dialog;
+import com.codename1.ui.events.ActionEvent;
+import com.codename1.ui.util.Resources;
 
-/**
- * GUI builder created Form
- *
- * @author ricky
- */
-public class NeueNotizForm extends com.codename1.ui.Form {
 
-    public NeueNotizForm() {
-        this(com.codename1.ui.util.Resources.getGlobalResources());
-    }
-
+public class NeueNotizForm extends Form  {
     public NeueNotizForm(com.codename1.ui.util.Resources resourceObjectInstance) {
-
         initGuiBuilderComponents(resourceObjectInstance);
     }
 
@@ -100,15 +80,4 @@ public class NeueNotizForm extends com.codename1.ui.Form {
     }// </editor-fold>
 
 //-- DON'T EDIT ABOVE THIS LINE!!!
-    public void onButtonActionEvent(com.codename1.ui.events.ActionEvent ev) {
-
-        try (OutputStream os = Storage.getInstance().createOutputStream(gui_Text_Field.getText());) {
-            os.write(gui_Text_Area.getText().getBytes("UTF-8"));
-        } catch (IOException err) {
-            Log.e(err);
-        }
-
-        new MainForm().show();
-    }
-
 }
